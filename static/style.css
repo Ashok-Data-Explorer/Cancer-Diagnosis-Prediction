@@ -1,0 +1,168 @@
+/* style.css */
+
+/* Global resets */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arimo', sans-serif;
+    background: #f2f2f2;
+    background-image: url('../static/assets/image.png'); /* Add the path to your image here */
+    background-size: cover; /* This will ensure the image covers the entire background */
+    
+  }
+  
+  /* Container for form and result */
+  .login {
+    max-width: 400px;
+    margin: 2% auto;
+    background: #FFD58c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  /* Form input styles */
+  input[type="text"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 5px solid #2C5F2DFF;
+    border-radius: 100px;
+  }
+  
+  /* Button styles */
+  button {
+    width: 50%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 26px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Error message */
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  /* Result message */
+  #predi {
+    margin-top: 40px;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'nescent',  sans-serif ;
+    color: #2E3456;
+    font-weight: bolder !important ;
+    text-align: justify;
+    
+
+
+  }
+  
+  /* Link styles */
+  a {
+    text-decoration: solid;
+    color: #45a049;
+    font-size: 20px;
+    display: block;
+    margin-top: 30px;
+    font-family: 'evocative', sans-serif;
+    border: 5px solid #2C5F2DFF;
+    border-radius: 10px;
+    width: 40%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+/* CSS for Contact Section */
+.contact-section {
+  background-color: #FFD58c; /* Background color */
+  padding: 2px 0; /* Padding around the contact section */
+  text-align: center; /* Center align text */
+  padding-top: 3px;
+  padding-block: inherit;
+  padding-bottom: 20px;
+}
+
+.contact-details {
+  margin-top: 5px; /* Margin on top of contact details */
+  display: flex;
+  justify-content: center; /* Center align horizontally */
+  align-items: center; /* Center align vertically */
+  gap: 10px; /* Space between icons */
+  padding-top: 2px;
+}
+
+.contact-details a {
+  display: inline-block; /* Display links as blocks */
+  text-decoration: none; /* Remove underline from links */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+  background-color: #fff;
+  padding: 1px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-details a:hover {
+  transform: translateY(-5px); /* Move link up slightly on hover */
+}
+
+.contact-details img {
+  vertical-align:middle; /* Align images vertically centered */
+  margin: 0;
+}
+
+.contact-section h2 {
+  font-family: 'Pacifico', cursive; /* Use Pacifico font for heading */
+  font-size: 2em; /* Adjust font size */
+  margin-bottom: 20px; /* Margin below heading */
+  text-decoration: underline;
+  padding: 1px;
+}
+
+
+/* Footer CSS */
+.footer {
+  background-color: #FFD58c; /* Background color for the footer */
+  padding: 10px 0; /* Padding around the footer content */
+  text-align: center; /* Center align the text horizontally */
+  position: absolute; /* Ensure the footer stays at the bottom of the page */
+  width: 100%; /* Ensure the footer spans the full width of the page */
+  bottom: 0; /* Position the footer at the bottom of the page */
+}
+
+.footer .container {
+  display: flex;
+  justify-content: center; /* Center align horizontally */
+  align-items: center; /* Center align vertically */
+  flex-direction: column; /* Arrange content vertically */
+}
+
+.footer p {
+  margin: 0; /* Remove default margin */
+  font-family: 'nescent', sans-serif; /* Font family for the text */
+  font-size: 16px; /* Font size for the text */
+  color: #333; /* Text color */
+}

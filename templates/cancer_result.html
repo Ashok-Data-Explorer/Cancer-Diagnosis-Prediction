@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Diagnosis Result</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+  <div class="login">
+    <h1>Diagnosis Result</h1>
+    <h1 id="predi">
+      {% if diagnosis == 0 %}
+        The predicted diagnosis is: No cancer
+      {% elif diagnosis == 1 %}
+        The predicted diagnosis is: Cancer
+      {% else %}
+        The predicted diagnosis is: Invalid Input
+      {% endif %}
+    </h1>
+    <a href="/">Back to Home</a>
+  </div>
+
+</section>
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2>Contact</h2>
+        <div class="contact-details">
+            <a href="https://www.linkedin.com/in/ashok-chinnamarla-a10294266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank">
+                <img align="center" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" height="40" width="40" />
+            </a>
+            <a href="https://www.instagram.com/ashokc79?igsh=MWJwaGxoNnh4ZXM0bA==" target="blank">
+                <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" alt="Instagram" height="40" width="40" />
+            </a>
+            <a href="mailto:chinnamarlaashok@example.com" target="blank">
+                <img align="center" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" height="40" width="40" />
+                <a href="https://ashok-data-explorer.github.io/" target="blank">
+                <img align="center" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Portfolio" height="40" width="40" />
+            </a>
+        </div>
+    </div>
+</section>
+</section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 @-Ashok Chinnamarla All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
